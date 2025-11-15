@@ -1,0 +1,4 @@
+section, header, footer {
+  margin: 10px 0;   /* reduce vertical spacing */
+  padding: 10px 0;  /* optional, smaller padding */
+}

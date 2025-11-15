@@ -1,0 +1,54 @@
+.Professional {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+  padding: 0;
+}
+
+.h2 {
+  background-color: bisque;
+  text-align: left;
+}
+
+/* FIXED COLUMNS SPACING */
+.columns {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 280px;               /* << decrease this to shrink gap */
+  width: 80%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.left-col {
+  text-align: left;
+}
+
+.right-col {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.skill {
+  width: 250px;
+}
+
+.bar-container {
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.5s;
+}

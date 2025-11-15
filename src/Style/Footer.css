@@ -1,0 +1,9 @@
+footer p {
+    background-color: black;
+    color: white;        
+    text-align: left;  /* optional */
+    margin: 0;  
+    max-height: fit-content;   
+     margin: 0px 0;
+  padding: 0px 0;     
+}

@@ -1,0 +1,33 @@
+
+.AboutSection {
+  display: flex;
+  justify-content: space-between;  /* pushes left + right apart */
+  align-items: flex-start;
+  width: 80%;
+  margin: auto;
+   margin: 20px 0;
+  padding:  0;
+  gap: 100px; /* space between left and right */
+}
+
+/* LEFT SIDE (About Me) */
+.About_me {
+  flex: 1;
+}
+
+/* RIGHT SIDE (Intro table) */
+.Intro {
+  flex: 1;
+  border-collapse: collapse;
+}
+
+.Intro th,
+.Intro td {
+  padding: 10px;
+  text-align: left;
+}
+
+.Intro th {
+  width: 120px;
+  font-weight: bold;
+}

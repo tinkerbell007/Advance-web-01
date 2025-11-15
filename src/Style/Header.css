@@ -1,0 +1,43 @@
+.Header {
+  display: flex;
+  align-items: center;       /* vertically centers content next to image */
+  justify-content: flex-start; /* image on left, content next to it */
+  gap: 40px;
+  padding: 20px;
+   background-color: black;
+    color: white;        /* make text readable */
+    text-align: left;  /* optional */
+    padding: 5px 0;     /* optional */
+    margin: 0;  
+    max-height: fit-content; 
+}
+
+/* LEFT SIDE IMAGE */
+.header-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* RIGHT SIDE CONTENT */
+.header-content {
+  flex: 1;
+  text-align: center;      /* centers text, buttons, nav */
+}
+
+/* Titles */
+.header-content h2,
+.header-content h3 {
+  margin: 5px 0;
+}
+
+/* Buttons */
+.header-buttons {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center; /* centers buttons */
+  gap: 10px;
+}
+
+
